@@ -9,7 +9,7 @@ metadata:
     flux.weave.works/automated: 'true'
     flux.weave.works/automated_msg: test
 spec:
-  replicas: 4
+  replicas: 6
   strategy:
     rollingUpdate:
       maxSurge: 1
